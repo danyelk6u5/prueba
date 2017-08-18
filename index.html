@@ -30,15 +30,15 @@
 <script type="text/javascript" src='resources/plugins/moment/moment.min.js'></script>
 
 
-<script type="text/javascript" src='resources/js/dashboard.js'></script>
+<script type="text/javascript" src='dashboard.js'></script>
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 	<div class="wrapper">
 		<header class="main-header">
 			<a href="home" class="logo">
-			  <span class="logo-mini"><b>X</b></span>
-			  <span class="logo-lg">My APP</span>
+			  <span class="logo-mini"><b>CryptoCurrency</b></span>
+			  <span class="logo-lg">CryptoCurrency</span>
 			</a>
 			<nav class="navbar navbar-static-top">
 			  <div class="navbar-custom-menu">
@@ -51,11 +51,19 @@
 			</nav>
 		  </header>
 		<div class="content-wrapper">
-			<section class="content-header">
-			</section>
+            <section class="content-header">
+                <h1>
+                    CryptoCurrency Dashboard
+                    <small>by Daniel Alonzo</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li class="active">Dashboard</li>
+                </ol>
+            </section>
 			<section class="content">
                 <div class="row">
-                    <div class="col-xs-7">
+                    <div class="col-md-12 col-lg-7">
                         <div class="box">
                             <div class="box-header">
                                 
@@ -65,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-md-8 col-lg-4">
                         <div class="box">
                             <div class="box-header">
                                 Calculator
@@ -74,7 +82,7 @@
                                 <div class="box-body">
                                     <div class="form-group">
                                         <div class="col-sm-7">
-                                            <input type="text" class="form-control" id="txt1" readonly="readonly" >
+                                            <input type="text" class="form-control" id="txt1" readonly="readonly">
                                         </div>
                                         <div class="col-sm-5">
                                             <select id="ddl1" class="form-control">
@@ -100,7 +108,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="box">
                             <div class="box-body">
                                 <div>
@@ -109,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="box">
                             <div class="box-body">
                                 <div>
@@ -120,30 +128,34 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="box">
                             <div class="box-header">
                                 <h3 class="box-title">Bitcoin - BTC</h3>
                             </div>
                             <div class="box-body">
-                                <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
-                                        <table id="grid1" class="table table-bordered table-hover dataTable" role="grid" aria-describedby="example2_info"></table>
-                                </div>
+                                <row>
+                                    <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                                        <table id="grid1" class="table table-striped table-bordered table-hover order-column display responsive nowrap" role="grid" aria-describedby="example2_info"></table>
+                                    </div>
+                                </row>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 
-                    <div class="col-xs-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="box">
                             <div class="box-header">
                                 <h3 class="box-title">Etherium - ETC</h3>
                             </div>
                             <div class="box-body">
-                                <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
-                                    <table id="grid2" class="table table-bordered table-hover dataTable" role="grid" aria-describedby="example2_info"></table>
-                                </div>
+                                <row>
+                                    <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                                        <table id="grid2" class="table table-striped table-bordered table-hover order-column display responsive nowrap" role="grid" aria-describedby="example2_info"></table>
+                                    </div>
+                                </row>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
 			</section>
