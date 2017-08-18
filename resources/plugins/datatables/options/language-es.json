@@ -1,0 +1,24 @@
+﻿{
+    "sProcessing": "<div class=\"cs-datatable-processing\"><span>Procesando...</span><div class=\"progress progress-striped active\"><div class=\"progress-bar\" style=\"width: 100%;\"></div></div>",
+    "sLengthMenu": "Mostrar _MENU_ registros",
+    "sZeroRecords": "No se encontraron resultados.",
+    "sEmptyTable": "Ningún dato disponible.",
+    "sInfo": "_START_ - _END_ de _TOTAL_ ",
+    "sInfoEmpty": "No hay registros que mostrar.",
+    "sInfoFiltered": "(filtrado de _MAX_ registros)",
+    "sInfoPostFix": "",
+    "sSearch": "Buscar:",
+    "sUrl": "",
+    "sInfoThousands": ",",
+    "sLoadingRecords": "Cargando registros...",
+    "oPaginate": {
+        "sFirst": "<<",
+        "sLast": ">>",
+        "sNext": ">",
+        "sPrevious": "<"
+    },
+    "oAria": {
+        "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+    }
+}

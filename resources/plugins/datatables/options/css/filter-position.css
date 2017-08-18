@@ -1,0 +1,11 @@
+﻿/* DATATABLE - POSICIÓN DEL FILTRO Y NÚMERO DE REGISTROS POR PÁGINA*/
+
+/*Filtro a la izquierda*/
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+}
+
+/*Tamaño de la página a la derecha*/
+.dataTables_wrapper .dataTables_length {
+    float: right;
+}
